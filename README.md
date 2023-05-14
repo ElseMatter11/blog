@@ -11,15 +11,15 @@
 
 ### Create a new blog post:
 
-URL: /api/post
-Method: POST
-Request body:
-text (string): Content of the blog post
-author (string): Author of the blog post
-picture (optional) : Picture for post
-Response:
+* URL: /api/post
+* Method: POST
+* Request body:
+- text (string): Content of the blog post
+- author (string): Author of the blog post
+- picture (optional) : Picture for post
+* Response:
 Status code: 201 (Created)
-Body: JSON object representing the created blog post
+* Body: JSON object representing the created blog post
 
 ### Get all blog posts with pagination:
 
